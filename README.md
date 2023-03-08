@@ -1,41 +1,19 @@
-# motif-mark
+# Motif-Mark README
+#### Jack Peplinski, Updated: 3/8/23
 
-## Motif Mark Notes
-#### Jack Peplinski 2/16/23
+motif-mark-oop.py lets you visualize the relative locations of unique motifs and exons on a gene with just a FASTA file and a list of motifs. 
 
-### Input
-    • FASTA file
-    • The introns flanking the cassette exon (not all of the intron, just the close bits)
-    • How to denote introns vs exons? Uppercase is the exon, lowercase is the intron.
+## Contents
 
-### Output
-    • Single, vector-based image
-    • To scale
-    • Drawing with a black line for the introns, black box for the exon, and colored boxes for the motifs (colors for multiple motifs with a key) with a gene label on the top left and key with motif sequences/colors on the bottom right. 
+• [Why](##Why)
+• [Features](##Features)
+• [Installation](##Installation)
+• [Usage](##Usage)
 
-### Pycairo
-    • c-based drawing library
-    • origin is top left
+## Why
 
-conda install -c conda-forge pycairo
-import cairo
-import math
-import re
-surface = cairo.SVGSurface("plot.svg", width, height)
-context = cairo.Context(surface)
-context.set_line_width(1)
-context.move_to(50,25)
-context.line_to(intron1+exon+intron2,25)
-context.stroke()
+## Features
 
-### Functions
-    • Ideas: Find, introns v exons, ambiguous motifs
+## Installation
 
-    • Parse FASTA (multi-length FASTA into one?)
-    • Parse file with motifs
-    • Drawing function
-
-### Multiple Motifs & Multiple Genes?
-
-### Motifs with flexibility
-    • Regex (must use)
+## Usage
