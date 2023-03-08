@@ -170,10 +170,10 @@ yellow = [(240/255),(228/255),(66/255)]
 
 #This appends those colors to the list of lists in the order that they will be used by the motifs
 unique_colors.append(blue)
-unique_colors.append(skyblue)
 unique_colors.append(green)
 unique_colors.append(orange)
 unique_colors.append(vermillion)
+unique_colors.append(skyblue)
 unique_colors.append(reddishpurple)
 unique_colors.append(yellow)
 
