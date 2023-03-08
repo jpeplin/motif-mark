@@ -5,15 +5,39 @@ motif-mark-oop.py lets you visualize the relative locations of unique motifs and
 
 ## Contents
 
-• [Why](##Why)
-• [Features](##Features)
-• [Installation](##Installation)
-• [Usage](##Usage)
+• [Purpose](###Purpose)
+• [Features](###Features)
+• [Installation](###Installation)
+• [Usage](###Usage)
 
-## Why
+### Purpose
 
-## Features
 
-## Installation
 
-## Usage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Features
+
+### Installation
+
+### Usage
