@@ -30,7 +30,7 @@ bioinfo.oneline_fasta(args.f, 'oneline.fasta')
 
 fasta = args.f
 name = fasta.split(".")[0]
-pdfname = name + '.pdf'
+svgname = name + '.svg'
 pngname = name + '.png'
 
 #opens the oneline fasta and parses it to find the longest gene
@@ -51,8 +51,10 @@ with open("oneline.fasta", 'r') as i:
                 long_line_len = len(seq)
 
 #opening context with the size of x = longest gene length and y adjusted by the number of genes 
-surface = cairo.PDFSurface(pdfname, long_line_len + 125, (gene_count*100)-15)
+surface = cairo.SVGSurface(svgname, long_line_len + 125, (gene_count*100)-15)
 ctx = cairo.Context(surface)
+ctx.set_source_rgb(1,1,1)
+ctx.paint()
 
 #creates a list of motif sequences
 m_list = []
@@ -245,6 +247,8 @@ ctx.show_text("Created By: Jack Peplinski, 03-07-2023")
 
 #writing out to a png to preview in vs code
 surface.write_to_png(pngname)
+
+surface.finish()
                     
 #printing the file saved to check when properly run
 print("File Saved")
