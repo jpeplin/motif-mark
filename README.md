@@ -1,5 +1,6 @@
 # motif-mark
 #### Updated: 3/8/23
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 `motif-mark-oop.py` lets you visualize the relative locations of unique motifs and exons on a gene with just a FASTA file and a list of motifs. 
 
@@ -12,6 +13,7 @@
 • [Usage](#Usage)                                                                                   
 
 ### Features
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### • To-Scale Gene-Exon-Motif Visualization
 
@@ -19,8 +21,7 @@ The main feature of `motif-mark-oop.py` is the visualization of genes, exons, an
 
 #### • Up to Seven Unique Motifs
 
-`motif-mark-oop.py` can handle an input list of up to seven unique motifs. These motifs use a color-blind friendly color palette from 
-[https://jfly.uni-koeln.de/color/](#https://jfly.uni-koeln.de/color/ "Masataka Okabe and Kei Ito's Color Universal Design website"). However, this can be easily modified in the color portion of the script by simply adding more colors. 
+`motif-mark-oop.py` can handle an input list of up to seven unique motifs. These motifs use a color-blind friendly color palette from [Masataka Okabe and Kei Ito's Color Universal Design website](https://jfly.uni-koeln.de/color/). However, this can be easily modified in the color portion of the script by simply adding more colors. 
 
 #### • One-line FASTA
 
@@ -35,6 +36,7 @@ Genes will be evenly spaced and populated with corresponding introns and exons s
 In addition to a one-line FASTA, the visualizations will be outputted as a .png and a .svg file.
 
 ### Installation
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Installation of `motif-mark-oop.py` is as simple as downloading `motif-mark-oop.py` and `bioinfo.py` to your working directory. The following packages are required to run the programs:
 
@@ -55,6 +57,7 @@ Installation of `motif-mark-oop.py` is as simple as downloading `motif-mark-oop.
 • argparse                                           
 
 ### Usage
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 In order to use `motif-mark-oop.py`, you must have `motif-mark-oop.py`, `bioinfo.py`, a FASTA file with .fasta as the suffix, and a file of motifs with .txt as the suffix in the working directory. The FASTA file must be a standard FASTA with header and sequence lines and the motif file must have unique motifs separated by new lines, one motif to a line.
 
