@@ -3,33 +3,34 @@
 
 `motif-mark-oop.py` lets you visualize the relative locations of unique motifs and exons on a gene with just a FASTA file and a list of motifs. 
 
-![alt text](https://github.com/jpeplin/motif-mark/blob/main/Figure_1.pdf "motif-mark figure 1")
+![alt text](https://github.com/jpeplin/motif-mark/blob/main/Figure_1.svg "motif-mark figure 1")
 
 ### Contents
 
-• [Features](#Features)
-• [Installation](#Installation)
-• [Usage](#Usage)
+• [Features](#Features)                                                                                         
+• [Installation](#Installation)                                                                                             
+• [Usage](#Usage)                                                                                   
 
 ### Features
 
-##### To-Scale Gene-Exon-Motif Visualization
+#### To-Scale Gene-Exon-Motif Visualization
 
 The main feature of `motif-mark-oop.py` is the visualization of genes, exons, and motifs drawn to scale. The window of the outputted files will automatically adjust to the length of the longest gene and exons and motifs will be spaced according to their position in the input FASTA sequence. 
 
-##### Up to Seven Unique Motifs
+#### Up to Seven Unique Motifs
 
-`motif-mark-oop.py` can handle an input list of up to seven unique motifs. These motifs use a color-blind friendly color palette from [Masataka Okabe and Kei Ito's Color Universal Design website](#https://jfly.uni-koeln.de/color/). However, this can be easily modified in the color portion of the script by simply adding more colors. 
+`motif-mark-oop.py` can handle an input list of up to seven unique motifs. These motifs use a color-blind friendly color palette from 
+[https://jfly.uni-koeln.de/color/](#https://jfly.uni-koeln.de/color/ "Masataka Okabe and Kei Ito's Color Universal Design website"). However, this can be easily modified in the color portion of the script by simply adding more colors. 
 
-##### One-line FASTA
+#### One-line FASTA
 
 `motif-mark-oop.py` will input a FASTA file of any size and first turn it into a one-line FASTA with headers and sequences on alternating lines. 
 
-##### Easy Visualization
+#### Easy Visualization
 
 Genes will be evenly spaced and populated with corresponding introns and exons shown as thin and thick black lines respectively. The headers for each gene will be printed above the corresponding gene line. Motifs will be shown as boxes, color-coded for unique motifs and printed onto a corresponding key shown in the top right of the output. 
 
-##### .png and .svg Formats
+#### .png and .svg Formats
 
 In addition to a one-line FASTA, the visualizations will be outputted as a .png and a .svg file.
 
@@ -37,28 +38,20 @@ In addition to a one-line FASTA, the visualizations will be outputted as a .png 
 
 Installation of `motif-mark-oop.py` is as simple as downloading `motif-mark-oop.py` and `bioinfo.py` to your working directory. The following packages are required to run the programs:
 
-##### `motif-mark-oop.py`
+#### `motif-mark-oop.py`
 
 • cairo
-
 • math
-
 • re
-
 • argparse
-
 • bioinfo
 
-##### `bioinfo.py`
+#### `bioinfo.py`
 
 • re
-
 • math
-
 • matplotlib.pylab as plt
-
 • numpy as np
-
 • argparse       
 
 ### Usage
