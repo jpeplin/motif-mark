@@ -29,7 +29,7 @@ The main feature of `motif-mark-oop.py` is the visualization of genes, exons, an
 
 #### Easy Visualization
 
-Genes will be evenly spaced and populated with corresponding introns and exons shown as thin and thick black lines respectively. The headers for each gene will be printed above the corresponding gene line. Motifs will be shown as boxes, color-coded for unique motifs and printed onto a corresponding key shown in the top right of the output. 
+Genes will be evenly spaced and populated with corresponding introns and exons shown as thin and thick black lines respectively. The headers for each gene will be printed above the corresponding gene line. Motifs will be shown as boxes, color-coded for unique motifs and printed onto a corresponding key shown in the top right of the output. Motifs are given a 90% opacity so that overlaps can be visualized.
 
 #### .png and .svg Formats
 
