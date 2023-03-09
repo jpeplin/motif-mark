@@ -3,12 +3,12 @@
 
 `motif-mark-oop.py` lets you visualize the relative locations of unique motifs and exons on a gene with just a FASTA file and a list of motifs. 
 
+![alt text](https://github.com/jpeplin/motif-mark/blob/main/Figure_1.pdf "motif-mark figure 1")
+
 ### Contents
 
 • [Features](#Features)
-
 • [Installation](#Installation)
-
 • [Usage](#Usage)
 
 ### Features
@@ -19,7 +19,7 @@ The main feature of `motif-mark-oop.py` is the visualization of genes, exons, an
 
 ##### Up to Seven Unique Motifs
 
-`motif-mark-oop.py` can handle an input list of up to seven unique motifs. These motifs use a color-blind friendly color palette from [Masataka Okabe and Kei Ito's Color Universal Design (CUD) website](#https://jfly.uni-koeln.de/color/). However, this can be easily modified in the color portion of the script by simply adding more colors. 
+`motif-mark-oop.py` can handle an input list of up to seven unique motifs. These motifs use a color-blind friendly color palette from [Masataka Okabe and Kei Ito's Color Universal Design website](#https://jfly.uni-koeln.de/color/). However, this can be easily modified in the color portion of the script by simply adding more colors. 
 
 ##### One-line FASTA
 
